@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://liangyangyang.com/"/>
-  <updated>2018-03-07T03:34:17.924Z</updated>
+  <updated>2018-03-07T09:23:17.835Z</updated>
   <id>http://liangyangyang.com/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOS代码片段</title>
+    <link href="http://liangyangyang.com/2018/03/07/iOS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/"/>
+    <id>http://liangyangyang.com/2018/03/07/iOS代码片段/</id>
+    <published>2018-03-07T09:23:17.000Z</published>
+    <updated>2018-03-07T09:23:17.835Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="http://liangyangyang.com/2018/03/07/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://liangyangyang.com/2018/03/07/设计模式/</id>
+    <published>2018-03-07T09:23:01.000Z</published>
+    <updated>2018-03-07T09:23:01.535Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SDWebImage源码探究</title>
+    <link href="http://liangyangyang.com/2018/03/07/SDWebImage%E6%BA%90%E7%A0%81%E6%8E%A2%E7%A9%B6/"/>
+    <id>http://liangyangyang.com/2018/03/07/SDWebImage源码探究/</id>
+    <published>2018-03-07T09:22:43.000Z</published>
+    <updated>2018-03-07T09:22:43.252Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AFNetworking源码探究</title>
+    <link href="http://liangyangyang.com/2018/03/07/AFNetworking%E6%BA%90%E7%A0%81%E6%8E%A2%E7%A9%B6/"/>
+    <id>http://liangyangyang.com/2018/03/07/AFNetworking源码探究/</id>
+    <published>2018-03-07T09:21:55.000Z</published>
+    <updated>2018-03-07T09:21:55.602Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>iOS底层研究</title>
@@ -43,16 +99,15 @@
     <link href="http://liangyangyang.com/2018/03/05/iOSInterview/"/>
     <id>http://liangyangyang.com/2018/03/05/iOSInterview/</id>
     <published>2018-03-05T06:36:09.000Z</published>
-    <updated>2018-03-05T06:45:56.394Z</updated>
+    <updated>2018-03-07T07:02:53.320Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h2><p>文件下载<br>网络请求<br>线程<br>UI调试工具<br>SDWebimage实现<br>网络请求的封装</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="面试题"><a href="#面试题" class="headerlink" title="面试题"></a>面试题</h2><p>文件下载<br>网络请求<br>线程<br>UI调试工具<br>SDWebimage实现<br>网络请求的封装<br>23个设计模式</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;面试题&quot;&gt;&lt;a href=&quot;#面试题&quot; class=&quot;headerlink&quot; title=&quot;面试题&quot;&gt;&lt;/a&gt;面试题&lt;/h2&gt;&lt;p&gt;文件下载&lt;br&gt;网络请求&lt;br&gt;线程&lt;br&gt;UI调试工具&lt;br&gt;SDWebimage实现&lt;br&gt;网络请求的封装&lt;/p&gt;
-
+        &lt;h2 id=&quot;面试题&quot;&gt;&lt;a href=&quot;#面试题&quot; class=&quot;headerlink&quot; title=&quot;面试题&quot;&gt;&lt;/a&gt;面试题&lt;/h2&gt;&lt;p&gt;文件下载&lt;br&gt;网络请求&lt;br&gt;线程&lt;br&gt;UI调试工具&lt;br&gt;SDWebimage实现&lt;br&gt;网络请求的封装&lt;br&gt;23个设计模式
       
     
     </summary>
@@ -65,16 +120,15 @@
     <link href="http://liangyangyang.com/2018/03/02/HexoCourse/"/>
     <id>http://liangyangyang.com/2018/03/02/HexoCourse/</id>
     <published>2018-03-02T03:49:47.000Z</published>
-    <updated>2018-03-02T06:44:48.175Z</updated>
+    <updated>2018-03-07T09:26:29.100Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装hexo之前需要将hexo和git（macOS系统自带）安装好<br>使用npm安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p><p>初始化并部署hexo博客<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo i blog //init的缩写 blog是项目名</span><br><span class="line"><span class="built_in">cd</span> blog //切换到站点根目录</span><br><span class="line">hexo g //generetor的缩写</span><br><span class="line">hexo s //server的缩写</span><br></pre></td></tr></table></figure></p><p>打开浏览器输入localhost:4000查看<br>主题文件安装在themes文件夹下 可从github找自己喜欢的博客主题</p><h2 id="配置github-page"><a href="#配置github-page" class="headerlink" title="配置github page"></a>配置github page</h2><p>在github创建用户名.github.io的仓库，在setting中配置page信息</p><h2 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h2><p>生成ssh rsakey<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> .ssh</span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">"yourmail@mail.com"</span></span><br><span class="line"><span class="comment">#全部Enter不用设置密码</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (/Users/xxx/.ssh/id_rsa):</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></p><p>将rsakey复制到github  验证是否联通<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p><p>修改用户名和邮箱<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"用户名"</span></span><br><span class="line">$ git config --global user.email <span class="string">"邮箱"</span></span><br></pre></td></tr></table></figure></p><h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo d  //  部署的命令</span><br></pre></td></tr></table></figure><p>参考文章<br><a href="http://blog.csdn.net/Hoshea_chx/article/details/78826689" target="_blank" rel="noopener">用Hexo + github搭建自己的博客 — 再也不用羡慕别人了！</a><br><a href="https://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="noopener">20分钟教你使用hexo搭建github博客</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装hexo之前需要将hexo和git（macOS系统自带）安装好<br>使用npm安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p><p>初始化并部署hexo博客<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo i blog //init的缩写 blog是项目名</span><br><span class="line"><span class="built_in">cd</span> blog //切换到站点根目录</span><br><span class="line">hexo g //generetor的缩写</span><br><span class="line">hexo s //server的缩写</span><br></pre></td></tr></table></figure></p><p>打开浏览器输入localhost:4000查看<br>主题文件安装在themes文件夹下 可从github找自己喜欢的博客主题</p><a id="more"></a><h2 id="配置github-page"><a href="#配置github-page" class="headerlink" title="配置github page"></a>配置github page</h2><p>在github创建用户名.github.io的仓库，在setting中配置page信息</p><h2 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h2><p>生成ssh rsakey<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> .ssh</span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">"yourmail@mail.com"</span></span><br><span class="line"><span class="comment">#全部Enter不用设置密码</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (/Users/xxx/.ssh/id_rsa):</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></p><p>将rsakey复制到github  验证是否联通<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p><p>修改用户名和邮箱<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"用户名"</span></span><br><span class="line">$ git config --global user.email <span class="string">"邮箱"</span></span><br></pre></td></tr></table></figure></p><h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">hexo d  //  部署的命令</span><br></pre></td></tr></table></figure><p>参考文章<br><a href="http://blog.csdn.net/Hoshea_chx/article/details/78826689" target="_blank" rel="noopener">用Hexo + github搭建自己的博客 — 再也不用羡慕别人了！</a><br><a href="https://www.jianshu.com/p/e99ed60390a8" target="_blank" rel="noopener">20分钟教你使用hexo搭建github博客</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;安装hexo之前需要将hexo和git（macOS系统自带）安装好&lt;br&gt;使用npm安装hexo&lt;br&gt;&lt;f
-      
+      &lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;安装hexo之前需要将hexo和git（macOS系统自带）安装好&lt;br&gt;使用npm安装hexo&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;初始化并部署hexo博客&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo i blog //init的缩写 blog是项目名&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; blog //切换到站点根目录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo g //generetor的缩写&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s //server的缩写&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;打开浏览器输入localhost:4000查看&lt;br&gt;主题文件安装在themes文件夹下 可从github找自己喜欢的博客主题&lt;/p&gt;
     
     </summary>
     

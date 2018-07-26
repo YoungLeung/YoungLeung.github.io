@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="NeverLand">
 <meta property="og:description" content="安装hexo安装hexo之前需要将hexo和git（macOS系统自带）安装好使用npm安装hexo1npm install -g hexo-cli 初始化并部署hexo博客1234hexo i blog //init的缩写 blog是项目名cd blog //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写 打开浏览器输入localhost:4000">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-03-02T06:44:48.175Z">
+<meta property="og:updated_time" content="2018-03-07T09:26:29.100Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo教程">
 <meta name="twitter:description" content="安装hexo安装hexo之前需要将hexo和git（macOS系统自带）安装好使用npm安装hexo1npm install -g hexo-cli 初始化并部署hexo博客1234hexo i blog //init的缩写 blog是项目名cd blog //切换到站点根目录hexo g //generetor的缩写hexo s //server的缩写 打开浏览器输入localhost:4000">
@@ -217,6 +217,24 @@
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
         </li>
       
         
@@ -335,6 +353,7 @@
         <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>安装hexo之前需要将hexo和git（macOS系统自带）安装好<br>使用npm安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
 <p>初始化并部署hexo博客<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo i blog //init的缩写 blog是项目名</span><br><span class="line"><span class="built_in">cd</span> blog //切换到站点根目录</span><br><span class="line">hexo g //generetor的缩写</span><br><span class="line">hexo s //server的缩写</span><br></pre></td></tr></table></figure></p>
 <p>打开浏览器输入localhost:4000查看<br>主题文件安装在themes文件夹下 可从github找自己喜欢的博客主题</p>
+<a id="more"></a>
 <h2 id="配置github-page"><a href="#配置github-page" class="headerlink" title="配置github page"></a>配置github page</h2><p>在github创建用户名.github.io的仓库，在setting中配置page信息</p>
 <h2 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h2><p>生成ssh rsakey<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> .ssh</span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">"yourmail@mail.com"</span></span><br><span class="line"><span class="comment">#全部Enter不用设置密码</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (/Users/xxx/.ssh/id_rsa):</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br></pre></td></tr></table></figure></p>
 <p>将rsakey复制到github  验证是否联通<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
@@ -464,7 +483,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
